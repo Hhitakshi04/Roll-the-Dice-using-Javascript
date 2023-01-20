@@ -1,0 +1,68 @@
+body {
+
+    background: url("download\ \(9\).jpeg") no-repeat center center Fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.heading {
+    color: aliceblue;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+#p1,#p2 {
+    margin-top: 100px;
+    width: 15em;
+    height: 20em;
+}
+
+p {
+    color: azure;
+    font-size: 2rem;
+}
+
+@media(min-width:760px)and (max-width:1200px) {
+
+    #p1,#p2 {
+        margin-top: 50px;
+        width: 10em;
+        height: 15em;
+    }
+
+}
+
+@media(max-width:530px) {
+
+    #p1,#p2 {
+        margin-top: 30px;
+        width: 8em;
+        height: 13em;
+    }
+
+    .heading {
+        color: aliceblue;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+}
